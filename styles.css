@@ -301,6 +301,10 @@ ul {
     gap: 8px;
   }
 
+  .hero {
+    display: inherit;
+  }
+
   .hero img {max-width: 300px;}
 
   .testimonial .container {
