@@ -180,6 +180,7 @@ ul {
   font-size: var(--section-header-font-size);
   font-weight: var(--section-header-font-weight);
   margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .info .cards {
