@@ -223,7 +223,7 @@ ul {
   font-weight: var(--quote-section-font-weight);
   font-style: var(--quote-section-font-style);
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .testimonial .quote-author {
@@ -292,9 +292,27 @@ ul {
 }
 
 @media all and (max-width: 600px) {
+  .navbar {
+    height: initial;
+  }
   .navbar .container {
     padding: 10px;
     flex-direction: column;
     gap: 8px;
+  }
+
+  .hero img {max-width: 300px;}
+
+  .testimonial .container {
+    text-align: center;
+    padding: 40px;
+  }
+
+  .testimonial .quote-author {
+    text-align: center;
+  }
+
+  .cta-section .container {
+    padding: 30px 25px;
   }
 }
