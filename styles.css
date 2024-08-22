@@ -147,13 +147,14 @@ ul {
 .hero p {
   font-size: var(--hero-secondary-font-size);
   color: var(--hero-secondary-color);
-  line-height: 1.2;
-  margin-bottom: 12px;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 .hero img {
   max-width: 400px;
   height: auto;
+  border-radius: var(--home-border-radius);
 }
 
 /* Info section */
@@ -269,4 +270,30 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%
+}
+
+@media all and (max-width: 800px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px;
+  }
+
+  .testimonial .quote {
+    font-size: 30px;
+  }
+
+  .cta-section .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navbar .container {
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+  }
 }
